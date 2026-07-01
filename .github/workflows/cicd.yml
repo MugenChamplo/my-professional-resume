@@ -18,4 +18,4 @@ jobs:
                 password: ${{ secrets.DOCKER_PASSWORD }}
             - name: Push image
               run:
-                docker push bukolak/cicd-portfolio .
+                docker push bukolak/cicd-portfolio
